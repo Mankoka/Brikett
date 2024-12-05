@@ -18,17 +18,29 @@ h1, h2{
 }
 
 .bevezeto{
-  margin: 10px 200px;
+  margin: 10px 510px;
   text-align: center;
   background-color: #EBEBEB;
   padding: 10px 35px;
   font-size: 75%;
+  font-style: italic;
+  border-top: 1px solid #3F4F5F;
+  border-bottom: 1px solid #3F4F5F;
 }
 
 #brikettek{
   width: 90%;
   max-width: 500px;
 }
+
+#brikettek:hover{
+  content: "Brikettált papír";
+}
+
+#brikettek:missing{
+  content: "Brikettált papír";
+}
+
 
 p{
   text-align: justify;
@@ -57,6 +69,7 @@ p:first-letter{
 }
 
 .kiemelt{
+  font-weight: bold;
   font-style: italic;
 }
 
